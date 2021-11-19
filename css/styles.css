@@ -5,8 +5,9 @@ html {
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
+  color: #40514E;
 }
 
 .top-container {
@@ -15,26 +16,33 @@ body {
   padding-top: 100px;
 }
 
-h1,
+/* h1,
 h2 {
   color: #66BFBF;
-}
+} */
 
 h1 {
   font-size: 5.625rem;
   font-family: 'Sofia', cursive;
   margin: 50px auto 0 auto;
   line-height: 2;
+  color: #66BFBF;
 }
 
 h2 {
   font-size: 2rem;
-  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+  font-weight: 500;
 }
 
 h3,
 a {
   color: #11999E;
+}
+
+p {
+  line-height: 2;
 }
 
 span {
@@ -48,12 +56,97 @@ span {
 }
 
 .bottom-cloud{
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
+  position: relative;
+  bottom: 296px;
+  right: 83px;
 }
 
-.code-img,
-.code-img-2 {
-  width: 300px
+.mountain-img {
+  position: relative;
+  right: 77px;
+}
+
+hr {
+  border-style: dotted;
+  border-color: #ccc;
+  border-width: 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.design-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.code-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* .skill-description {
+
+} */
+
+.contact-me {
+  margin-bottom: 100px;
+}
+
+.contact-message{
+  width: 30%;
+  margin: 40px auto 60px;
+
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #11cdd4, #11999e);
+}
+
+.btn:hover{
+  background:#30e3cb;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0;
+}
+
+.bottom-container a {
+  text-decoration: none;
+  color: #11999E;
+  font-weight: bold;
+  margin: auto 30px;
+}
+
+.bottom-container a:hover {
+  color: #fff;
+}
+
+.copyright {
+  margin-top: 30px;
+  margin-bottom: 0;
+  color: #fff;
 }
